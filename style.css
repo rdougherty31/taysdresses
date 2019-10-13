@@ -1,6 +1,3 @@
-li {
-    color: blue;
-}
 .dresses {
     text-align: center;
 }
@@ -26,4 +23,56 @@ li {
     color: grey;
     font-weight: bold;
     font-family: sans-serif;
+}
+.label, #lillianWest {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+.designers, #lillianWest {
+    background: #ffc0cb61;
+}
+.events {
+    background: #add8e69c;
+}
+.shops {
+    background: #ffffa082;
+}
+section li {
+    display: inline-block;
+    width: 10rem;
+    background: rgba(0,0,0,.2);
+    margin: .1rem 0;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    font-family: fantasy;
+    font-size: 1.5rem;
+}
+section li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px grey;
+}
+section ul {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.lillianWest {
+    text-align: center;
+}
+.lillianWest li {
+    padding: .5rem;
+    font-family: sans-serif;
+}
+#lillianWest a {
+    color: white;
+    text-shadow: 0 0 5px grey;
+}
+.lillianWest a:hover {
+    letter-spacing: .1rem;
 }
