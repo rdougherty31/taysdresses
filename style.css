@@ -1,3 +1,6 @@
+h1 {
+    font-family: 'Tangerine', cursive;
+}
 .dresses {
     text-align: center;
 }
@@ -11,10 +14,11 @@
     text-align: center;
     font-size: 5rem;
     padding: .5rem 0;
+    font-family: 'Cinzel', serif;
 }
 .name a {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     color: black;
 }
@@ -42,12 +46,12 @@
 }
 section li {
     display: inline-block;
-    width: 10rem;
+    width: 15rem;
     background: rgba(0,0,0,.2);
     margin: .1rem 0;
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-    font-family: fantasy;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+    font-family: 'Cinzel', serif;
     font-size: 1.5rem;
 }
 section li a {
@@ -67,7 +71,7 @@ a {
 }
 .lillianWest li {
     padding: .5rem;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
 }
 #lillianWest a {
     color: white;
